@@ -7,7 +7,7 @@ nav {
   background-color: rgba(24, 21, 23, 0.73);
 }
 .nav {
-  padding-right: 50px;
+  padding: 10px;
 }
 .nav-header {
   padding-right: 600px;
@@ -29,4 +29,24 @@ a:hover {
 }
 a:active {
   color: #939956;
+}
+
+/* HERO SECTION */
+
+.jumbotron-fluid {
+  background-image: url(/Images/stacked-steps-haikei.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+.container {
+  display: flex;
+  gap: 50%;
+  /* change gap to auto for smaller screens */
+}
+
+img {
+  scale: 1.5;
 }
