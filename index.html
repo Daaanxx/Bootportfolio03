@@ -14,44 +14,144 @@
     <link href="CSS/style.css" rel="stylesheet" />
   </head>
   <body>
+    <!-- NAVIGATION -->
     <nav>
-      <ul class="nav justify-content-end">
+      <ul class="nav">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Home</a>
+          <a class="nav-link active" href="#">My Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">My Skills</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">About Me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Resume</a>
+          <a class="nav-link nav-last-child">Resume</a>
         </li>
       </ul>
     </nav>
+    <!-- NAVIGATION END -->
+    <article>
+      <!-- HERO SECTION -->
+      <hero>
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container container-box">
+            <img class="my-img" src="Images/4xVAlA77.jpg" alt="Aouthor image" />
+            <div class="hero-text">
+              <h1 class="display-4">Hi, I'm Daniel!</h1>
+              <p class="lead">
+                Welcome to my personal Web Page where you can view my work &
+                personal information!
+              </p>
+            </div>
+          </div>
+        </div>
+      </hero>
 
-    <hero>
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <img src="/Images/35.jpg" class="img-fluid" alt="Author's avatar" />
-          <div>
-            <h1 class="display-3">Hi, I'm Dan!</h1>
-            <p>Welcome to my web page!</p>
+      <!-- HERO SECTION END -->
+
+      <!-- WORK SECTION -->
+      <div class="container">
+        <h3 class="my-work-text">My Work</h3>
+        <div class="row">
+          <div class="col-12 col-lg-12 col-md-12 col-sm-12">
+            <div class="card card-1">
+              <img
+                src="/Images/Portfolio-01.PNG"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Portfolio</h5>
+                <p class="card-text">
+                  Personal web page with my body of work and information about
+                  me. Buidling this project allowed me to better understand
+                  Bootstrap technologies and combine them with my own CSS and
+                  design vision.
+                </p>
+                <p>
+                  Build with: <span class="text-html">HTML</span>
+                  <span class="text-css">CSS</span>
+                  <span class="text-boot">BOOTSTRAP</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card" style="width: 18rem">
+              <img src="/Images/pramod.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Web-Project-01</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Nobis vitae asperiores nostrum, consequuntur quisquam vel eos.
+                </p>
+                <p>
+                  Build with: <span class="text-html">HTML</span>
+                  <span class="text-css">CSS</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card" style="width: 18rem">
+              <img src="/Images/pramod.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Web-Project-02</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Nobis vitae asperiores nostrum, consequuntur quisquam vel eos.
+                </p>
+                <p>
+                  Build with: <span class="text-html">HTML</span>
+                  <span class="text-css">CSS</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card" style="width: 18rem">
+              <img src="/Images/pramod.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Web-Project-03</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Nobis vitae asperiores nostrum, consequuntur quisquam vel eos.
+                </p>
+                <p>
+                  Build with: <span class="text-html">HTML</span>
+                  <span class="text-css">CSS</span>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </hero>
-    <section id="portfolio">
-      <p class="portfolio-p">Portfolio</p>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">col-md-12</div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">.col-md-4</div>
-          <div class="col-md-4 offset-md-4">.col-md-4 .offset-md-4</div>
-        </div>
-    </section>
+      <!-- WORK SECTION END-->
+
+      <!-- SKILLS SECTION -->
+
+      <div class="skill-section container">
+        <h3 class="text-skill-title">My Skills</h3>
+        <p class="text-skill">
+          Participating in this boot camp helps me to learn and understand
+          modern Front End Web Technologies. Throughout this time I hope to
+          understand and learn about "real world" apllications of the following
+          technologies:
+        </p>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">HTML</li>
+          <li class="list-group-item">CSS</li>
+          <li class="list-group-item">JavaScript</li>
+        </ul>
+      </div>
+      <!-- SKILLS SECTION END-->
+
+      <!-- ABOUT ME SECTION -->
+      <!-- ABOUT ME SECTION END-->
+    </article>
   </body>
 </html>
