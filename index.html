@@ -12,22 +12,28 @@
       crossorigin="anonymous"
     />
     <link href="CSS/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="media.css" />
   </head>
   <body>
     <!-- NAVIGATION -->
     <nav>
       <ul class="nav">
         <li class="nav-item">
-          <a class="nav-link active" href="#">My Work</a>
+          <a class="nav-link active" href="#Mywork">My Work</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">My Skills</a>
+          <a class="nav-link" href="#MySkills">My Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About Me</a>
+          <a class="nav-link" href="#AboutMe">About Me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link nav-last-child">Resume</a>
+          <a
+            class="nav-link nav-last-child"
+            href="/Images/CV- DANIEL KOPACZ.docx"
+            download="CV-"
+            >Resume</a
+          >
         </li>
       </ul>
     </nav>
@@ -35,9 +41,10 @@
     <article>
       <!-- HERO SECTION -->
       <hero>
-        <div class="jumbotron jumbotron-fluid">
-          <div class="container container-box">
+        <div class="jumbotron jumbotron-fluid" id="#Mywork">
+          <div class="container-box">
             <img class="my-img" src="Images/4xVAlA77.jpg" alt="Aouthor image" />
+
             <div class="hero-text">
               <h1 class="display-4">Hi, I'm Daniel!</h1>
               <p class="lead">
@@ -57,11 +64,16 @@
         <div class="row">
           <div class="col-12 col-lg-12 col-md-12 col-sm-12">
             <div class="card card-1">
-              <img
-                src="/Images/Portfolio-01.PNG"
-                class="card-img-top"
-                alt="..."
-              />
+              <a
+                href="https://aesthetic-smakager-a8af6b.netlify.app"
+                target="_blank"
+              >
+                <img
+                  src="/Images/Portfolio-01.PNG"
+                  class="card-img-top"
+                  alt="Portfolio web page image"
+                />
+              </a>
               <div class="card-body">
                 <h5 class="card-title">Portfolio</h5>
                 <p class="card-text">
@@ -82,7 +94,11 @@
         <div class="row">
           <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="card" style="width: 18rem">
-              <img src="/Images/pramod.jpg" class="card-img-top" alt="..." />
+              <img
+                src="/Images/pramod.jpg"
+                class="card-img-top"
+                alt="Placeholder image"
+              />
               <div class="card-body">
                 <h5 class="card-title">Web-Project-01</h5>
                 <p class="card-text">
@@ -98,7 +114,11 @@
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="card" style="width: 18rem">
-              <img src="/Images/pramod.jpg" class="card-img-top" alt="..." />
+              <img
+                src="/Images/pramod.jpg"
+                class="card-img-top"
+                alt="Placeholder Image"
+              />
               <div class="card-body">
                 <h5 class="card-title">Web-Project-02</h5>
                 <p class="card-text">
@@ -114,7 +134,11 @@
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="card" style="width: 18rem">
-              <img src="/Images/pramod.jpg" class="card-img-top" alt="..." />
+              <img
+                src="/Images/pramod.jpg"
+                class="card-img-top"
+                alt="Placeholder Image"
+              />
               <div class="card-body">
                 <h5 class="card-title">Web-Project-03</h5>
                 <p class="card-text">
@@ -134,19 +158,14 @@
 
       <!-- SKILLS SECTION -->
 
-      <div class="skill-section container">
+      <div class="skill-section container" id="MySkills">
         <h3 class="text-skill-title">My Skills</h3>
         <p class="text-skill">
           Participating in this boot camp helps me to learn and understand
           modern Front End Web Technologies. Throughout this time I hope to
-          understand and learn about "real world" apllications of the following
-          technologies:
+          understand and learn about "real world" apllications of HTML , CSS &
+          JavaScript.
         </p>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">HTML</li>
-          <li class="list-group-item">CSS</li>
-          <li class="list-group-item">JavaScript</li>
-        </ul>
       </div>
       <!-- SKILLS SECTION END-->
 
@@ -178,7 +197,7 @@
     </article>
 
     <footer>
-      <div class="footer-section container">
+      <div class="footer-section container" id="AboutMe">
         <ul class="footer-items">
           <li class="footer-item">
             <a class="nav-link active" href="#">My Work</a>

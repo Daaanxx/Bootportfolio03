@@ -3,12 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+html {
+  scroll-behavior: smooth !important;
+}
 body {
   background-color: #070c12;
   color: #070c12;
   font-family: monospace;
-  scroll-behavior: smooth;
 }
 
 /* NAVIGATION */
@@ -24,6 +25,7 @@ nav {
 
 .nav {
   padding: 20px;
+  width: 100%;
 }
 
 a {
@@ -58,11 +60,18 @@ a:active {
 
 .container-box {
   display: flex;
-  gap: 200px;
+  width: 100%;
+  justify-content: center;
+  gap: 10rem;
 }
+
 .my-img {
   border-radius: 50px;
   scale: 1.2;
+}
+
+.lead {
+  max-width: 400px;
 }
 
 /* WORK SECTION */
@@ -75,8 +84,13 @@ a:active {
 }
 
 .row {
-  margin: 100px 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 50px;
 }
+
 .text-html {
   background-color: #0084ff;
   border-radius: 50px;
@@ -113,15 +127,6 @@ a:active {
 .text-aboutme,
 .text-aboutme02 {
   font-size: 1.3rem;
-}
-
-.list-group {
-  color: #fff;
-  width: fit-content;
-}
-.list-group-item {
-  background-color: #070c12;
-  border-bottom: 1px solid #fff;
 }
 
 /* ABOUT ME SECTION */
