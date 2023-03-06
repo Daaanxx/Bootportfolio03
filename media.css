@@ -1,0 +1,77 @@
+@media (max-width: 765px) {
+  .skill-section,
+  .about-me-section {
+    height: 100%;
+  }
+  .container-box {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem;
+    margin: 0;
+    width: 100%;
+    align-items: center;
+    gap: 3rem;
+  }
+  .row {
+    padding: 50px 25px;
+  }
+  .col-lg-4,
+  .col-md-6,
+  .col-sm-12 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .nav-link {
+    padding: 0.5rem;
+  }
+  .nav {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  nav {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .text-skill,
+  .text-aboutme {
+    text-align: center;
+  }
+  footer {
+    margin-top: 4rem;
+  }
+  a {
+    font-size: 20px;
+  }
+}
+@media (max-width: 380px) {
+  .text-skill-title,
+  .text-aboutme-title {
+    margin-bottom: 2rem;
+  }
+  .text-skill,
+  .text-aboutme,
+  .text-aboutme02 {
+    font-size: 1.1rem;
+  }
+}
