@@ -8,6 +8,7 @@ body {
   background-color: #070c12;
   color: #070c12;
   font-family: monospace;
+  scroll-behavior: smooth;
 }
 
 /* NAVIGATION */
@@ -36,6 +37,7 @@ a:visited {
 }
 a:hover {
   color: #a6e1fa;
+  transition: all 0.5s;
 }
 a:active {
   color: #a6e1fa;
@@ -95,7 +97,8 @@ a:active {
 
 /* SKILLS SECTION */
 
-.skill-section {
+.skill-section,
+.about-me-section {
   height: 50vh;
   color: #fff;
 }
@@ -104,8 +107,11 @@ a:active {
   text-align: right;
   font-size: 6rem;
   border-bottom: 1px solid #fff;
+  margin-bottom: 5rem;
 }
-.text-skill {
+.text-skill,
+.text-aboutme,
+.text-aboutme02 {
   font-size: 1.3rem;
 }
 
@@ -117,3 +123,53 @@ a:active {
   background-color: #070c12;
   border-bottom: 1px solid #fff;
 }
+
+/* ABOUT ME SECTION */
+
+.text-aboutme-title {
+  font-size: 6rem;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 5rem;
+}
+
+.text-aboutme02 {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.aboutme-icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.aboutme-icon {
+  font-size: 3rem;
+}
+
+/* FOOTER SECTION */
+
+footer {
+  min-height: 80px;
+  background-color: #202e3b;
+  margin-top: 8rem;
+  border-top: 0.1px solid #636d76;
+}
+
+ul {
+  list-style: none;
+}
+.footer-items {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-item {
+  margin-top: 1rem;
+  text-decoration: none;
+}
+
+footer a:hover {
+  box-shadow: inset 10px 5px 5px #36434f;
+  border-radius: 1000px;
+}
+/* FOOTER SECTION END*/
